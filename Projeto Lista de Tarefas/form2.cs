@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PdfSharp.Pdf;
 
 namespace Projeto_Lista_de_Tarefas
 {
