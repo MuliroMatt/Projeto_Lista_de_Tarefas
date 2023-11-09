@@ -158,6 +158,7 @@
             this.btnSalvar.TabIndex = 12;
             this.btnSalvar.Text = "Salvar Tela";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // foto
             // 

@@ -34,9 +34,9 @@
             // 
             // btnTarefas
             // 
-            this.btnTarefas.Location = new System.Drawing.Point(187, 131);
+            this.btnTarefas.Location = new System.Drawing.Point(173, 51);
             this.btnTarefas.Name = "btnTarefas";
-            this.btnTarefas.Size = new System.Drawing.Size(154, 142);
+            this.btnTarefas.Size = new System.Drawing.Size(154, 137);
             this.btnTarefas.TabIndex = 0;
             this.btnTarefas.Text = "TAREFAS";
             this.btnTarefas.UseVisualStyleBackColor = true;
@@ -44,18 +44,19 @@
             // 
             // btnCadastro
             // 
-            this.btnCadastro.Location = new System.Drawing.Point(411, 109);
+            this.btnCadastro.Location = new System.Drawing.Point(3, 51);
             this.btnCadastro.Name = "btnCadastro";
-            this.btnCadastro.Size = new System.Drawing.Size(176, 137);
+            this.btnCadastro.Size = new System.Drawing.Size(154, 137);
             this.btnCadastro.TabIndex = 1;
             this.btnCadastro.Text = "Cadastro";
             this.btnCadastro.UseVisualStyleBackColor = true;
+            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(329, 231);
             this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.btnTarefas);
             this.Name = "Form3";

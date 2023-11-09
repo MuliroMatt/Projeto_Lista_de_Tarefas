@@ -19,7 +19,14 @@ namespace Projeto_Lista_de_Tarefas
 
         private void btnTarefas_Click(object sender, EventArgs e)
         {
-            
+            Form1 tarefas = new Form1();
+            tarefas.ShowDialog();
+        }
+
+        private void btnCadastro_Click(object sender, EventArgs e)
+        {
+            form2 cad = new form2();
+            cad.ShowDialog();
         }
     }
 }
