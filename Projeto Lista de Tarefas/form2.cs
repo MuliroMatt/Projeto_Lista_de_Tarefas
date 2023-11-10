@@ -82,7 +82,8 @@ namespace Projeto_Lista_de_Tarefas
                     "\\repos\\ProjetoListaTarefas\\ProjetoListaTarefas\\arquivos\\ScreenShot.pdf";
 
                 //ABRE O PDF APOS A EXECUÇÃO
-                Process.Start(pdfFilePath);
+                //Process.Start(pdfFilePath);
+                MessageBox.Show("Tela salva ok!");
             }
         }
     }
