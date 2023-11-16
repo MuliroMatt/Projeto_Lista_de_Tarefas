@@ -16,14 +16,25 @@ namespace Projeto_Lista_de_Tarefas
     {
         private System.Windows.Forms.Timer timer;
         DateTime startTimer;
+        int codigo = 1;
         public Form4()
         {
             InitializeComponent();
             lblData.Text = DateTime.Now.ToShortDateString();
-            timer = new 
+            timer = new System.Windows.Forms.Timer();
+            timer.Interval = 1000;
+            timer.Tick += timer1_Tick;
+            startTimer= DateTime.Now;
+            codigo++;
+            lblCodigo.Text = codigo ToString;
         }
 
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
